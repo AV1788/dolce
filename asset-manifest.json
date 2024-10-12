@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/dolce/static/css/main.aa753b86.css",
-    "main.js": "/dolce/static/js/main.08f2229b.js",
+    "main.js": "/dolce/static/js/main.dd49b07a.js",
     "index.html": "/dolce/index.html",
     "main.aa753b86.css.map": "/dolce/static/css/main.aa753b86.css.map",
-    "main.08f2229b.js.map": "/dolce/static/js/main.08f2229b.js.map"
+    "main.dd49b07a.js.map": "/dolce/static/js/main.dd49b07a.js.map"
   },
   "entrypoints": [
     "static/css/main.aa753b86.css",
-    "static/js/main.08f2229b.js"
+    "static/js/main.dd49b07a.js"
   ]
 }
