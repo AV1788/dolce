@@ -87,7 +87,7 @@ export const App = () => {
         </div>
 
         <div className="header__logo">
-          <a href="/" className="icon icon--logo"></a>
+          <a href="" className="icon icon--logo"></a>
         </div>
         <CustomDropdown options={options} selectedLanguage={language} onLanguageChange={changeLanguage}/>
       </header>
