@@ -1,0 +1,66 @@
+@import './mixins/mixins.scss';
+
+@import './variables/variables.scss';
+@import './blocks/container.scss';
+@import './blocks/product.scss';
+@import './blocks/header.scss';
+@import './blocks/dropdown-own.scss';
+@import './blocks/title.scss';
+@import './blocks/food.scss';
+@import './blocks/drinks.scss';
+@import './blocks/start.scss';
+@import './blocks/icon.scss';
+@import './blocks/menu.scss';
+@import './blocks/accordion.scss';
+@import './blocks/footer.scss';
+
+
+h1 {
+  margin: 0;
+}
+
+p {
+  color: $primary-color;
+  margin: 0;
+}
+
+.app {
+  background-color: #ded3a6;
+  
+
+  &__menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  &__type-off {
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+  }
+}
+
+.foto {
+  display: block;
+  height: auto;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.menu-nav {
+  list-style: none;
+  padding: 0;
+}
+
+.open {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.no-scroll {
+  overflow: hidden;
+}

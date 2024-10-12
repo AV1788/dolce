@@ -1,0 +1,7 @@
+[
+  { "id": "caesar", "name": "New York croissant \"Caesar\"", "price": "?" },
+  { "id": "caprese", "name": "Croissant \"Caprese\" with tomatoes, mozzarella cheese and pesto sauce", "price": "6,50" },
+  { "id": "tuna", "name": "Croissant with tuna, Philadelphia cheese, cucumber, lettuce and egg", "price": "7,00" },
+  { "id": "bakedGoat", "name": "Croissant with baked goat cheese, cheddar cheese, berry sauce, berries and honey", "price": "8,00" },
+  { "id": "turkey", "name": "Croissant with turkey, fresh cheese, Caesar sauce, tomatoes and lettuce", "price": "7,50" }
+]

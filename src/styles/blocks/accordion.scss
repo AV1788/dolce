@@ -1,0 +1,51 @@
+.accordion {
+  font-family: $font-family-main;
+  --bs-accordion-bg: transparent;
+  --bs-accordion-border-color: transparent;
+  --bs-accordion-border-width: none;
+
+  &-header {
+    display: flex;
+    justify-content: center;
+  }
+  &-item {
+    background-color: transparent;
+    border: none;
+  }
+
+  &-button {
+    font-size: 25px;
+    text-align: center;
+    width: auto;
+    color: $primary-color;
+    padding: 20px;
+    &::after {
+      margin-left: 10px;
+    }
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  
+
+  &-button:not(.collapsed) {
+    background-color: transparent;
+    color: #759242;
+  }
+  &-body {
+    &__list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
+
+    &__link {
+      text-decoration: none;
+      font-size: 25px;
+      color: $primary-color;
+    }
+  }
+  
+}

@@ -1,0 +1,8 @@
+[
+  { "id": "citrus", "name": "Citrus", "price": "4,00" },
+  { "id": "lavender", "name": "Lavender-Blackcurrant", "price": "4,00" },
+  { "id": "pear", "name": "Pear-Vanilla", "price": "4,00" },
+  { "id": "cucumber", "name": "Cucumber-Grapefruit", "price": "4,00" },
+  { "id": "raspberry", "name": "Raspberry-Coconut ", "price": "4,00" }
+
+]

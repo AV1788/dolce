@@ -1,0 +1,10 @@
+[
+  { "id": "strawberry", "name": "Classic pancakes with strawberry cream, banana and fruit", "price": "7,30" },
+  { "id": "banana", "name": "Chocolate pancakes with banana, ice cream and chocolate sauce", "price": "7,30" },
+  { "id": "poppy", "name": "Crepe with poppy seeds, cherries and cottage cheese", "price": "8,00" },
+  { "id": "cinnamon", "name": "Crepe with apples, caramel, cinnamon and nuts", "price": "7,30" },
+  { "id": "suzette", "name": "Crepe suzette with orange caramel, fruit and ice cream", "price": "7,50" },
+  { "id": "nutella", "name": "Crepe with Nutella and bananas", "price": "4,20" },
+  { "id": "condensed", "name": "Crepe with condensed milk and banana", "price": "4,30" }
+
+]

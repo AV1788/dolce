@@ -1,0 +1,6 @@
+[
+  { "id": "cheese", "name": "Cheese soup with ham and parmesan", "price": "7,00" },
+  { "id": "cream", "name": "Cream of mushroom soup with bacon and croutons", "price": "6,80" },
+  { "id": "finnish", "name": "Finnish soup with fresh salmon", "price": "8,50" }
+
+]

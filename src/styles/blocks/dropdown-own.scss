@@ -1,0 +1,71 @@
+.dropdown-own {
+  width: max-content;
+  
+  &__selected {
+    display: grid;
+    align-items: center;
+    grid-template-columns: max-content max-content max-content;
+    
+    border: 1px solid transparent;
+    padding: 5px;
+    cursor: pointer;
+  }
+
+  &__flag {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    margin-right: 10px;
+  }
+
+  &__label {
+    flex-grow: 1;
+    font-family: Bad Script;
+    font-size: 25px;
+    color: $primary-color;
+    &:hover {
+      color: white;
+    }
+
+    @include onPoint {
+      font-size: 20px;
+    }
+
+    @include smDevice {
+      display: none;
+    }
+  }
+
+  &__arrow {
+    color: $primary-color;
+    margin-left: 10px;
+  }
+
+  &__list {
+    position: absolute;
+    padding: 0;
+    top: 100%;
+    left: -30px;
+    width: 170px;
+    border: 1px solid #ccc;
+    background-color: $secondary-color;
+    z-index: 1000;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+
+    @include smDevice {
+      width: 100%;
+      left: 0;
+    }
+  }
+
+  &__item {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #ded3a6;
+    }
+  }
+}

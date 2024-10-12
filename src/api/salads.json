@@ -1,0 +1,6 @@
+[
+  { "id": "chicken", "name": "Salad with chicken, mozzarella and tomatoes", "price": "8,00" },
+  { "id": "ham", "name": "Salad with ham, pear and goat cheese", "price": "8,20" },
+  { "id": "beetroot", "name": "Salad with beetroot, feta cheese, walnuts and cranberries", "price": "8,00" },
+  { "id": "turkey", "name": "Salad with turkey, sun-dried tomatoes, parmesan and honey-mustard dressing", "price": "8,20" }
+]

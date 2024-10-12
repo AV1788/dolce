@@ -1,0 +1,5 @@
+[
+  { "id": "mushroom", "name": "Mushroom burger (Burger with beef patty, cheddar cheese, mushroom julienne, fried bacon, tomatoes, lettuce and truffle mayonnaise with potatoes.)", "price": "10,00" },
+  { "id": "spicy", "name": "Spicy burger (Burger with beef patty, cheddar cheese, pickled jalapeno peppers, tomatoes, lettuce and ketchup with potatoes)", "price": "9,50" },
+  { "id": "goat", "name": "Burger with goat cheese (Burger with beef patty, goat cheese, caramelized onions, tomatoes, lettuce and signature sauce with potatoes)", "price": "10,00" }
+]

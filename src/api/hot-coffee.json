@@ -1,0 +1,20 @@
+[
+  { "id": "espresso", "name": "Espresso", "price": "1,40" },
+  { "id": "americano", "name": "Americano", "price": "1,40" },
+  { "id": "cortado", "name": "Cortado", "price": "1,50" },
+  { "id": "coffeeS", "name": "Coffee with Milk S", "price": "1,50" },
+  { "id": "coffeeM", "name": "Coffee with Milk M", "price": "2,20" },
+  { "id": "latte", "name": "Latte", "price": "2,20" },
+  { "id": "flatWhite", "name": "Flat White", "price": "2,30" },
+  { "id": "bonbon", "name": "Bonbon (Espresso and Condensed Milk)", "price": "1,60" },
+  { "id": "carajillo", "name": "Carajillo (Espresso and Brandy)", "price": "2,00" },
+  { "id": "belmonte", "name": "Belmonte (Espresso, Brandy and Condensed Milk)", "price": "2,40" },
+  { "id": "cappuccino", "name": "Cappuccino", "price": "2,30" },
+  { "id": "baileysCap", "name": "Baileys Cappuccino", "price": "2,90" },
+  { "id": "matcha", "name": "Matcha Latte", "price": "4,00" },
+  { "id": "colacao", "name": "Colacao", "price": "2,20" },
+  { "id": "whc", "name": "White Hot Chocolate", "price": "4,40" },
+  { "id": "chc", "name": "Classic Hot Chocolate", "price": "4,40" },
+  { "id": "raf", "name": "Raf (Espresso, Cream, and Syrup of Choice) ", "price": "4,00" },
+  { "id": "irish", "name": "Irish Coffee (Espresso, Cream, and Brandy)", "price": "5,20" }
+]

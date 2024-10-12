@@ -1,0 +1,26 @@
+.icon {
+  box-sizing: border-box;
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+
+  &--menu {
+    background-image: url('../../img/icons_menu/burger.png');
+    background-position: 50%;
+  }
+
+  &--logo {
+    background-image: url('../../img/icons_menu/logo.png');
+    background-size: contain;
+  }
+
+  &--close {
+    background-image: url('../../img/icons_menu/close.png');
+    background-position: 50%;
+  }
+
+  &--insta {
+    background-image: url('../../img/icons_menu/insta.png');
+  }
+}

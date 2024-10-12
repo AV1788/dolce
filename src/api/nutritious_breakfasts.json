@@ -1,0 +1,15 @@
+[
+  { "id": "shakshukaFeta", "name": "Shakshuka with feta cheese", "price": "7,30" },
+  { "id": "shakshukaMushroom", "name": "Shakshuka with mushrooms and bacon", "price": "6,50" },
+  { "id": "cocotte", "name": "Egg cocotte with spanish ham, cheese and herbs", "price": "7,00" },
+  { "id": "englishBreak", "name": "English breakfast", "price": "8,50" },
+  { "id": "hashBrown", "name": "Hash brown with salmon, avocado and homemade tartar sauce", "price": "8,50" },
+  { "id": "zucchini", "name": "Zucchini pancakes with salmon, poached egg, guacamole, cucumber and béarnaise sauce", "price": "8,30" },
+  { "id": "bowl", "name": "Bowl with quinoa, salmon, mango, cucumber and avocado", "price": "8,00"},
+  { "id": "roll", "name": "Fresh roll with shrimp", "price": "8,00" },
+  { "id": "camembert", "name": "Fried camembert in breadcrumbs with berry sauce, potatoes and cheese sauce", "price": "7,20" },
+  { "id": "pastrami", "name": "Sandwich with pastrami, cheddar cheese and signature sauce with potatoes", "price": "7,50" },
+  { "id": "club", "name": "Club sandwich with chicken, bacon, cheese, tomatoes, lettuce and mustard sauce, served with potatoes", "price": "8,20" },
+  { "id": "sandwich", "name": "Sandwich with salmon, avocado, omelette, tomatoes, lettuce and Philadelphia cheese", "price": "8,00" },
+  { "id": "kiev", "name": "Kiev cutlet with mashed potatoes", "price": "8,50" }
+]

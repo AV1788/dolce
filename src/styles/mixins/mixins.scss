@@ -1,0 +1,17 @@
+@mixin smDevice {
+  @media (max-width: 400px) {
+    @content;
+  }
+}
+
+@mixin onPoint {
+  @media (max-width: 510px) {
+    @content;
+  }
+}
+
+@mixin forMenu {
+  @media (max-width: 700px) {
+    @content;
+  }
+}

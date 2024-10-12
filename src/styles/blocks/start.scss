@@ -1,0 +1,56 @@
+.start {
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: $secondary-color;
+  opacity: 0; /* Початковий стан – приховано */
+  transition: opacity 3s ease-in-out;
+
+  &--visible {
+    opacity: 1;
+    display: flex;
+  }
+
+  &--hidden {
+    opacity: 0; /* Приховати елемент */
+    transition: opacity 1s ease-in-out;
+    pointer-events: none;
+  }
+
+  &__gif {
+    display: block;
+    position: absolute;
+    height: 175px;
+    width: 175px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &__logo {
+    display: block;
+    
+  }
+
+  &__content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__header {
+    font-family: $font-family-main;
+    display: block;
+    margin: 0;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    min-width: min-content;
+  }
+}

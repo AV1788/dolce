@@ -1,0 +1,6 @@
+[
+  { "id": "whiteWine", "name": "White Wine", "price": "2,50" },
+  { "id": "redWine", "name": "Red Wine ", "price": "2,50" },
+  { "id": "beer", "name": "Beer", "price": "1,90" },
+  { "id": "nonBeer", "name": "Non-Alcoholic Beer", "price": "1,70" }
+]

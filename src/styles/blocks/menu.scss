@@ -1,0 +1,27 @@
+.menu {
+  box-sizing: border-box;
+  height: auto;
+  z-index: 1;
+  transition: opacity 0.5s;
+  background-color: #f2f2ef;
+
+  &__top {
+    position: relative;
+    height: 50px;
+    border-bottom: 1px solid #212529;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
+
+  &__icon {
+    height: 50px;
+    width: 50px;
+  }
+
+  &__logo {
+    height: 40px;
+    width: 70px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,22 @@
+[
+  { "id": "coconutCherry", "name": "Coconut-Cherry (vodka, coconut liqueur, cherry juice)", "price": "7,30" },
+  { "id": "cremeBrulee", "name": "Martini Crème Brûlée (vodka, sugar syrup, vanilla syrup, cream, egg white)", "price": "7,30" },
+  { "id": "martiniEspresso", "name": "Martini Espresso (vodka, coffee liqueur, vanilla syrup, espresso)", "price": "7,00" },
+  { "id": "loveIs", "name": "Love is... (Baileys, sugar syrup, strawberry syrup, cream, milk)", "price": "7,30" },
+  { "id": "sangria", "name": "Sangria (frozen berries, lemon, orange, wine (red or white), sugar syrup, soda water, mint)", "price": "7,00" },
+  { "id": "aperol", "name": "Strawberry Aperol (Aperol, sparkling wine, strawberry syrup, soda water)", "price": "6,00" },
+  { "id": "mojito", "name": "Mojito (mint, lime, cane sugar, rum, lime juice, Sprite)", "price": "6,50" },
+  { "id": "blueMargarita", "name": "Blue Margarita (tequila, orange liqueur, lemon juice, sugar syrup, Blue Curacao syrup)", "price": "7,50" },
+  { "id": "ginTonic", "name": "Gin Tonic (lemon, cucumber, gin, tonic)", "price": "8,00" },
+  { "id": "cosmo", "name": "Cosmopolitan (vodka, orange liqueur, cranberry juice, lemon juice, sugar syrup)", "price": "7,00" },
+  { "id": "aviation", "name": "Aviation (gin, blackberry liqueur, violet syrup, lemon juice)", "price": "7,00" },
+  { "id": "negroni", "name": "Negroni (gin, red vermouth, Campari)", "price": "7,80" },
+  { "id": "pinkLady", "name": "Pink Lady (gin, grenadine, sugar syrup, lemon juice, egg white)", "price": "7,50" },
+  { "id": "whiskySour", "name": "Whisky Sour (Soberano, cranberry syrup, lemon juice, sugar syrup, egg white)", "price": "7,40" },
+  { "id": "tequilaSunrise", "name": "Tequila Sunrise (orange juice, tequila, grenadine, orange)", "price": "6,50" },
+  { "id": "bramble", "name": "Bramble (gin, blackberry liqueur, blackcurrant syrup, lemon juice, sugar syrup, blackberry)", "price": "7,50" },
+  { "id": "bellini", "name": "Bellini (champagne and peach juice)", "price": "4,00" },
+  { "id": "mimosa", "name": "Mimosa (champagne and orange juice)", "price": "4,00" },
+  { "id": "rossini", "name": "Rossini (champagne and strawberry puree)", "price": "4,00" },
+  { "id": "kirRoyal", "name": "Kir Royal (champagne and blackberry liqueur)", "price": "4,00" }
+]
