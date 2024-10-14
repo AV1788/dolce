@@ -16,12 +16,12 @@
     font-family: $font-family-main;
     display: block;
     white-space: normal;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 26px;
   
     @include onPoint {
-      font-weight: 700;
-      font-size: 23px;
+      
+      font-size: 25px;
     }
     @include smDevice {
       text-align: center;
