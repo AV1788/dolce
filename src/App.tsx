@@ -10,6 +10,7 @@ import burgersFromServer from './api/burgers.json';
 import soupsFromServer from './api/soups.json';
 import saladsFromServer from './api/salads.json';
 import tostadasFromServer from './api/tostadas.json';
+import saltPancakesFromServer from './api/saltPancakes.json';
 import pancakesFromServer from './api/pancakes.json';
 import brunchesFromServer from './api/brunches.json';
 import naturalTeaFromServer from './api/natural-tea.json';
@@ -640,6 +641,32 @@ export const App = () => {
             </div>
             <div className="container">
               <img src="tostada.jpg" alt="" className="foto"/>
+            </div>
+          </div>
+
+          <div className="saltPancakes" id="saltPancakes">
+            <div className="app__type-off food__info">
+              <div className="container">
+                <h1 className="food__title title">
+                  {t('header.crepes')}
+                </h1>
+                <ul className="food__list">
+                  {saltPancakesFromServer.map(crepe => (
+                    <li className="product">
+                      <div className="product__main">
+                        <span className="product__name">{t(`crepes.name.${crepe.id}`)}</span>
+                        <span className="product__separator"></span>
+                        <span className="product__price">{crepe.price}€</span>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <img src="saltPancake_icon1.png" alt="" className="food__icon food__icon--crepe"/>
+            
+            </div>
+            <div className="container">
+              <img src="pancake.jpg" alt="" className="foto"/>
             </div>
           </div>
 

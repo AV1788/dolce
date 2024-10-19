@@ -27,14 +27,17 @@
     }
     &--burger {
       right: -25%;
+      height: auto;
     }
   
     &--croissant {
       left: -35%;
+      height: auto;
     }
   
     &--light {
       right: -25%;
+      height: auto;
     }
   
     &--nutritious {
@@ -55,6 +58,10 @@
   
     &--tostada {
       right: -30%;
+    }
+
+    &--crepe {
+      left: -20%;
     }
   
     &--pancake {

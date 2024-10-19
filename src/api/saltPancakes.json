@@ -1,0 +1,6 @@
+[
+  { "id": "chicken", "name": "Breton crepe with chicken", "price": "7,50" },
+  { "id": "bacon", "name": "Breton crepe with bacon", "price": "7,50" },
+  { "id": "salmon", "name": "Breton crepe with salmon", "price": "8,00" }
+  
+]

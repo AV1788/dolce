@@ -24,7 +24,7 @@ i18n
             food: 'Food',
             tea: 'Tea',
             drinks: 'Drinks',
-            phone: 'Phone number',
+            phone: 'Contacts',
             adress: 'Adress',
           },
           header: {
@@ -45,6 +45,7 @@ i18n
             cocktails: 'Cocktails',
             nonAlcoholic: 'Non-Alcoholic Drinks',
             drinks: 'Alcoholic Drinks',
+            crepes: 'Savory crepes',
           },
           lightBreakfast: {
             name: {
@@ -118,6 +119,13 @@ i18n
               manchego: 'Tostada with manchego cheese, nuts, dried cranberries and honey',
               liver: 'Tostada with chicken liver pate, forest fruit jam and pine nuts',
               french: 'French toast with mascarpone cream, fresh berries and nuts',
+            }
+          },
+          crepes: {
+            name: {
+              chicken: 'Breton crepe with chicken',
+              bacon: 'Breton crepe with bacon',
+              salmon: 'Breton crepe with salmon',
             }
           },
           pancakes: {
@@ -252,7 +260,7 @@ i18n
             food: 'Еда',
             tea: 'Чай',
             drinks: 'Напитки',
-            phone: 'Номер телефона',
+            phone: 'Контакты',
             adress: 'Адрес',
           },
           header: {
@@ -273,6 +281,7 @@ i18n
             cocktails: 'Коктейли',
             nonAlcoholic: 'Безалкогольные напитки',
             drinks: 'Алкогольные напитки',
+            crepes: 'Соленые блинчики',
           },
           lightBreakfast: {
             name: {
@@ -346,6 +355,13 @@ i18n
               manchego: 'Тостада с сыром манчего, орехами, вяленой клюквой и медом',
               liver: 'Тостада с паштетом из куриной печени, джемом из лесных фруктов и кедровыми орешками',
               french: 'Французский тост с кремом маскарпоне, свежими ягодами и орехами',
+            }
+          },
+          crepes: {
+            name: {
+              chicken: 'Бретонский блинчик с курицей',
+              bacon: 'Бретонский блинчик с беконом',
+              salmon: 'Бретонский блинчик с лососем',
             }
           },
           pancakes: {
@@ -477,7 +493,7 @@ i18n
             food: 'Comida',
             tea: 'Té',
             drinks: 'Bebidas',
-            phone: 'Número de teléfono',
+            phone: 'Contactos',
             adress: 'Dirección',
           },
           header: {
@@ -498,6 +514,7 @@ i18n
             cocktails: 'Cócteles',
             nonAlcoholic: 'Bebidas Sin Alcohol',
             drinks: 'Bebidas Alcohol',
+            crepes: 'Crepes salados',
           },
           lightBreakfast: {
             name: {
@@ -571,6 +588,13 @@ i18n
               manchego: 'Tostada con queso manchego, nueces, arándanos secos y miel',
               liver: 'Tostada con paté de hígado de pollo, mermelada de frutos del bosque y piñones',
               french: 'Tostada francesa con crema de mascarpone, frutos rojos frescos y frutos secos',
+            }
+          },
+          crepes: {
+            name: {
+              chicken: 'Crepe bretón con pollo',
+              bacon: 'Crepe bretón con bacon',
+              salmon: 'Crepe bretón con salmón',
             }
           },
           pancakes: {
@@ -702,7 +726,7 @@ i18n
             food: 'Їжа',
             tea: 'Чай',
             drinks: 'Напої',
-            phone: 'Номер телефону',
+            phone: 'Контакти',
             adress: 'Адреса',
           },
           header: {
@@ -723,6 +747,7 @@ i18n
             cocktails: 'Коктейлі',
             nonAlcoholic: 'Безалкогольні напої',
             drinks: 'Алкогольні напої',
+            crepes: 'Солені млинці',
 
           },
           lightBreakfast: {
@@ -798,6 +823,13 @@ i18n
               manchego: 'Тостада з сиром manchego, горіхами, в\'яленою журавлиною та медом ',
               liver: 'Тостада з паштетом з курячої печінки, джемом з лісових ягід та кедровими горішками',
               french: 'Французький тост з кремом маскарпоне, свіжими ягодами та горіхами',
+            }
+          },
+          crepes: {
+            name: {
+              chicken: 'Бретонський млинець з куркою',
+              bacon: 'Бретонський млинець з беконом',
+              salmon: 'Бретонський млинець з лососем',
             }
           },
           pancakes: {
