@@ -188,6 +188,11 @@ export const App = () => {
                         </a>
                       </li>
                       <li className="accordion-body__item">
+                        <a href="#saltPancakes" className="accordion-body__link" onClick={() => toggleMenu(false)}>
+                        {t('header.crepes')}
+                        </a>
+                      </li>
+                      <li className="accordion-body__item">
                         <a href="#pancakes" className="accordion-body__link" onClick={() => toggleMenu(false)}>
                         {t('header.pancakes')}
                         </a>
