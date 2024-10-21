@@ -6,7 +6,7 @@
   { "id": "coffeeM", "name": "Coffee with Milk M", "price": "2,20" },
   { "id": "latte", "name": "Latte", "price": "2,40" },
   { "id": "flatWhite", "name": "Flat White", "price": "2,50" },
-  { "id": "bonbon", "name": "Bonbon (Espresso and Condensed Milk)", "price": "1,60" },
+  { "id": "bombon", "name": "Bombon (Espresso and Condensed Milk)", "price": "1,60" },
   { "id": "carajillo", "name": "Carajillo (Espresso and Brandy)", "price": "2,00" },
   { "id": "belmonte", "name": "Belmonte (Espresso, Brandy and Condensed Milk)", "price": "2,40" },
   { "id": "cappuccino", "name": "Cappuccino", "price": "2,20" },

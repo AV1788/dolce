@@ -671,7 +671,7 @@ export const App = () => {
             
             </div>
             <div className="container">
-              <img src="pancake.jpg" alt="" className="foto"/>
+              <img src="crepe.jpg" alt="" className="foto"/>
             </div>
           </div>
 
