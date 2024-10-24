@@ -72,7 +72,7 @@ i18n
               bowl: 'Bowl with quinoa, salmon, mango, cucumber and avocado',
               roll: 'Fresh roll with shrimp',
               camembert: 'Fried camembert in breadcrumbs with berry sauce, potatoes and cheese sauce',
-              pastrami: 'Sandwich with pastrami, cheddar cheese and signature sauce with potatoes',
+              pastrami: 'Sandwich with pastrami, Cheddar cheese and signature sauce with potatoes',
               club: 'Club sandwich with chicken, bacon, cheese, tomatoes, lettuce and mustard sauce, served with potatoes',
               sandwich: 'Sandwich with salmon, avocado, omelette, tomatoes, lettuce and Philadelphia cheese',
               kiev: 'Kiev cutlet with mashed potatoes',
@@ -83,14 +83,14 @@ i18n
               caesar: 'New York croissant "Caesar"',
               caprese: 'Croissant "Caprese" with tomatoes, mozzarella cheese and pesto sauce',
               tuna: 'Croissant with tuna, Philadelphia cheese, cucumber, lettuce and egg',
-              bakedGoat: 'Croissant with baked goat cheese, cheddar cheese, berry sauce, berries and honey',
+              bakedGoat: 'Croissant with baked goat cheese, Сheddar cheese, berry sauce, berries and honey',
               turkey: 'Croissant with turkey, fresh cheese, Caesar sauce, tomatoes and lettuce',
             }
           },
           burgers: {
             name: {
-              mushroom: 'Mushroom burger (Burger with beef patty, cheddar cheese, mushroom julienne, fried bacon, tomatoes, lettuce and truffle mayonnaise with potatoes)',
-              spicy: 'Spicy burger (Burger with beef patty, cheddar cheese, pickled jalapeno peppers, tomatoes, lettuce and ketchup with potatoes)',
+              mushroom: 'Mushroom burger (Burger with beef patty, Cheddar cheese, mushroom julienne, fried bacon, tomatoes, lettuce and truffle mayonnaise with potatoes)',
+              spicy: 'Spicy burger (Burger with beef patty, Cheddar cheese, pickled jalapeno peppers, tomatoes, lettuce and ketchup with potatoes)',
               goat: 'Burger with goat cheese (Burger with beef patty, goat cheese, caramelized onions, tomatoes, lettuce and signature sauce with potatoes)',
             }
             
@@ -112,7 +112,7 @@ i18n
           },
           tostadas: {
             name: {
-              poached: 'Tostada with poached eggs, guacamole, salmon, béarnaise sauce',
+              poached: 'Tostada with poached eggs, guacamole, salmon, Béarnaise sauce',
               brie: 'Tostada with brie cheese, ham, cherry tomatoes, sun-dried tomatoes and balsamic sauce',
               phila: 'Tostada with Philadelphia cheese, salmon and avocado',
               tomato: 'Tostada with tomatoes',
@@ -143,7 +143,7 @@ i18n
           brunches: {
             name: {
               bacon: 'Bacon brunch (New York croissant with bacon, Philadelphia cheese, spinach and egg; for dessert chia pudding with Greek yogurt, granola and fruit, coffee, orange juice or lemonade to choose from)',
-              salmon: 'Salmon brunch (brioche with guacamole, salmon, poached egg, béarnaise sauce and salad; for dessert mini pancakes with fruit and Nutella; coffee, orange juice or lemonade to choose from)',
+              salmon: 'Salmon brunch (brioche with guacamole, salmon, poached egg, Béarnaise sauce and salad; for dessert mini pancakes with fruit and Nutella; coffee, orange juice or lemonade to choose from)',
               greek: 'Greek brunch (omelette with tomatoes, peppers, feta cheese and olives; for dessert donuts with vanilla cream and fruit; coffee and orange juice or lemonade to choose from)'
             }
           },
@@ -506,25 +506,25 @@ i18n
             tostadas: 'Tostadas',
             pancakes: 'Tortitas y crepes',
             brunches: 'Branch',
-            naturalTea: 'Té Natural',
-            brewedTea: 'Té de Hojas',
+            naturalTea: 'Té natural',
+            brewedTea: 'Té preparado',
             hotCoffee: 'Café caliente',
             coldCoffee: 'Café frío',
             lemonades: 'Limonadas',
             cocktails: 'Cócteles',
-            nonAlcoholic: 'Bebidas Sin Alcohol',
-            drinks: 'Bebidas Alcohol',
+            nonAlcoholic: 'Bebidas sin alcohol',
+            drinks: 'Bebidas alcohol',
             crepes: 'Crepes salados',
           },
           lightBreakfast: {
             name: {
-              sunDried: 'Tartas de queso con tomates secos, yogur griego y salsa pesto',
-              cherries: 'Tartas de queso con cereza y yogur griego',
-              caramel: 'Tartas de queso con caramelo, pera y coco',
-              wildBerries: 'Donuts de tarta de queso con frutos del bosque, frutos secos y crema de vanilla',
-              mango: 'Donuts de tarta de queso con mango, frutos secos y crema de vanilla',
+              sunDried: 'Tortitas de queso con tomates secos, yogur griego y salsa pesto',
+              cherries: 'Tortitas de queso con cereza y yogur griego',
+              caramel: 'Tortitas de queso con caramelo, pera y coco',
+              wildBerries: 'Donuts de queso con frutos del bosque, frutos secos y crema de vanilla',
+              mango: 'Donuts de queso con mango, frutos secos y crema de vanilla',
               oatmeal: 'Papilla con leche de coco, arándanos, plátano y canela',
-              chia: 'Puddimg de Chia con granola, yogur griego, frutas del bosque, almendra y mermelada',
+              chia: 'Pudding de chia con granola, yogur griego, frutas del bosque, almendra y mermelada',
               granola: 'Granola con yogur griego, plátano, frutas del bosque, almendra y mermelada',
               berry: 'Smoothie bowl con granola, fresa y mango',
               passion: 'Smoothie bowl de maracuya y mango con kiwi, plátano, granola y frutos secos',
@@ -536,7 +536,7 @@ i18n
               shakshukaMushroom: 'Shaksuka con champiñones y bacon',
               cocotte: 'Huevos cocotte con jamón, queso и verduras',
               englishBreak: 'Desayuno inglés',
-              hashBrown: 'Hashbrown con salmón, aguacate y salsa tartar casera',
+              hashBrown: 'Hash brown con salmón, aguacate y salsa tartar casera',
               zucchini: 'Tortitas de calabacin con salmón, huevo poché, guacamole, pepino y salsa bearnesa',
               bowl: 'Bowl con quinoa, salmón, mango, pepino y aguacate',
               roll: 'Rollo de gambas',
@@ -558,7 +558,7 @@ i18n
           },
           burgers: {
             name: {
-              mushroom: 'Hamburguesa de champiñones (Hamburguesa con albóndiga de ternera, queso chedar, pollo con champiñones con nata, bacon frito, tomates, lechuga y mayonesa de trufa con patatas)',
+              mushroom: 'Hamburguesa de champiñones (Hamburguesa de ternera, queso chedar, pollo con champiñones con nata, bacon frito, tomates, lechuga y mayonesa de trufa con patatas)',
               spicy: 'Hamburguesa picante (Hamburguesa de ternera, queso chedar, pimientos jalapeños encurtidos, tomates, verduras y ketchup con patatas)',
               goat: 'Hamburguesa con queso de cabra (Hamburguesa de ternera, queso de cabra, cebolla caramelizada, tomates, lechuga y salsa de autor con patatas)',
             }
@@ -610,7 +610,7 @@ i18n
           },
           brunches: {
             name: {
-              bacon: 'Branch con bacon (Cruasán Nueva York con bacon, queso Philadelphia, espimacas y huevo; para el postre pudding de chia con el yogur griego, granola y frutos, café, zumo de naranja natural o limonada para eligir)',
+              bacon: 'Branch con bacon (Cruasán Nueva York con bacon, queso Philadelphia, espinacas y huevo; para el postre pudding de chia con el yogur griego, granola y frutos, café, zumo de naranja natural o limonada para eligir)',
               salmon: 'Branch con salmon (brioche con guacamole, salmón, huevo poché, salsa bearnesa y verduras; para el postre mini tortitas con frutas y chocolate; café, zumo de naranja natural o limonada para eligir)',
               greek: 'Branch griego (tortilla con tomates, pimiento, queso feta y olivas; para el postre los donuts con crema de vanilla y frutos; café, zumo de naranja natural o limonada para eligir)'
             }
@@ -658,7 +658,7 @@ i18n
               affogato: 'Affogato (espresso, helado y nueces)',
               matchaIce: 'Latte frío de matcha',
               matchaOrange: 'Matcha naranja',
-              espressoTonic: 'Espresso tonic',
+              espressoTonic: 'Espresso tonica',
               bumble: 'Bumble (zumo de naranja y espresso)',
               
             }
