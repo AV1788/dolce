@@ -3,7 +3,7 @@
   { "id": "americano", "name": "Americano", "price": "1,40" },
   { "id": "cortado", "name": "Cortado", "price": "1,50" },
   { "id": "coffeeS", "name": "Coffee with Milk S", "price": "1,50" },
-  { "id": "coffeeM", "name": "Coffee with Milk M", "price": "2,20" },
+  { "id": "coffeeM", "name": "Coffee with Milk M", "price": "2,50" },
   { "id": "latte", "name": "Latte", "price": "2,40" },
   { "id": "flatWhite", "name": "Flat White", "price": "2,50" },
   { "id": "bombon", "name": "Bombon (Espresso and Condensed Milk)", "price": "1,60" },

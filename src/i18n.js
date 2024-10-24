@@ -637,7 +637,7 @@ i18n
               americano: 'Americano',
               cortado: 'Cortado',
               coffeeS: 'Café con leche (S) ',
-              coffeeM: 'Café con leche M',
+              coffeeM: 'Café con leche (M)',
               latte: 'Latte',
               flatWhite: 'Flat White',
               bombon: 'Bombon (espresso y leche condensada)',
@@ -816,7 +816,7 @@ i18n
           },
           tostadas: {
             name: {
-              poached: 'Тостада з яйцями пашот, гуакамоле, лососем і соусом беарнез',
+              poached: 'Тостада з яйцями пашот, гуакамоле, лососем і соусом "Беарнез"',
               brie: 'Тостада з сиром брі, хамоном, помідорами чері, в\'яленими помідорами та бальзамічним соусом',
               phila: 'Тостада з сиром "Філадельфія", лососем та авокадо',
               tomato: 'Тостада з томатами',
