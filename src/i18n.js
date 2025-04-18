@@ -45,7 +45,7 @@ i18n
             cocktails: 'Cocktails',
             nonAlcoholic: 'Non-Alcoholic Drinks',
             drinks: 'Alcoholic Drinks',
-            crepes: 'Savory crepes',
+            crepes: 'Savory crepes gluten-free',
           },
           lightBreakfast: {
             name: {
@@ -59,6 +59,7 @@ i18n
               granola: 'Granola with Greek yogurt, wild berries, banana, nuts and jam',
               berry: 'Berry mix smoothie bowl with strawberries and mango, granola and nuts',
               passion: 'Passion fruit and mango smoothie bowl with kiwi, banana, granola and nuts',
+              acai: 'Acai bowl with chia seeds, granola, mango, kiwi, berries and homemade hazelnut butter'
             }
           },
           nutritious: {
@@ -75,6 +76,8 @@ i18n
               pastrami: 'Sandwich with pastrami, Cheddar cheese and signature sauce with potatoes',
               club: 'Club sandwich with chicken, bacon, cheese, tomatoes, lettuce and mustard sauce, served with potatoes',
               sandwich: 'Sandwich with salmon, avocado, omelette, tomatoes, lettuce and Philadelphia cheese',
+              chicken_sand: 'Chicken sandwich with tomato, Cheddar cheese, lettuce and mayonnaise',
+              fried: 'Fried rice with chicken in sweet and sour sauce, scrambled eggs and vegetables',
               kiev: 'Kiev cutlet with mashed potatoes',
             }
           },
@@ -113,6 +116,7 @@ i18n
           tostadas: {
             name: {
               poached: 'Tostada with poached eggs, guacamole, salmon, Béarnaise sauce',
+              toast: 'Tostada with poached egg, mustard sauce, spinach, bacon and Béarnaise sauce',
               brie: 'Tostada with brie cheese, ham, cherry tomatoes, sun-dried tomatoes and balsamic sauce',
               phila: 'Tostada with Philadelphia cheese, salmon and avocado',
               tomato: 'Tostada with tomatoes',
@@ -123,14 +127,15 @@ i18n
           },
           crepes: {
             name: {
-              chicken: 'Breton crepe with chicken',
-              bacon: 'Breton crepe with bacon',
-              salmon: 'Breton crepe with salmon',
+              bacon: 'Breton crepe with bacon, cheese and egg',
+              salmon: 'Breton crepe with salmon, avocado and cheese Philadelphia',
+              champignon: 'Breton crepe with champignons and chicken',
             }
           },
           pancakes: {
             name: {
               strawberry: 'Classic pancakes with strawberry cream, banana and fruit',
+              hazelnut: 'Classic pancakes with homemade blueberry jam, banana, berries and hazelnut butter',
               banana: 'Chocolate pancakes with banana, ice cream and chocolate sauce',
               poppy: 'Crepe with poppy seeds, cherries and cottage cheese',
               cinnamon: 'Crepe with apples, caramel, cinnamon and nuts',
@@ -281,7 +286,7 @@ i18n
             cocktails: 'Коктейли',
             nonAlcoholic: 'Безалкогольные напитки',
             drinks: 'Алкогольные напитки',
-            crepes: 'Соленые блинчики',
+            crepes: 'Соленые блинчики без глютена',
           },
           lightBreakfast: {
             name: {
@@ -295,6 +300,7 @@ i18n
               granola: 'Гранола с греческим йогуртом, лесными ягодами, бананом, орехами и джемом',
               berry: 'Смузи-боул из микса ягод с клубникой и манго, гранолой и орехами',
               passion: 'Смузи-боул из маракуи и манго с киви, бананом, гранолой и орехами',
+              acai: 'Acai-боул с семенами чиа, гранолой, манго, киви, ягодами и домашней ореховой пастой)'
             }
           },
           nutritious: {
@@ -311,6 +317,8 @@ i18n
               pastrami: 'Сэндвич с пастрами, сыром "Чеддер" и авторским соусом, подаётся вместе с картофелем',
               club: 'Клаб сэндвич с курицей, беконом, сыром, томатами, салатом и горчичным соусом, подаётся вместе с картофелем',
               sandwich: 'Сэндвич с лососем, авокадо, омлетом, томатами, салатом и сыром "Филадельфия"',
+              chicken_sand: 'Сэндвич с курицей, помидором, сыром "Чеддер", листьями салата и майонезом',
+              fried: 'Жареный рис с курицей в кисло-сладком соусе, с яичницей и овощами',
               kiev: 'Котлета по-киевски с пюре',
             }
           },
@@ -349,6 +357,7 @@ i18n
           tostadas: {
             name: {
               poached: 'Тостада с яйцами пашот, гуакамоле, лососем и соусом "Беарнез"',
+              toast: 'Тостада с яйцом пашот, горчичным соусом, шпинатом, беконом и соусом "Беарнез"',
               brie: 'Тостада с сыром бри, хамоном, помидорами черри, помидорами вялеными и бальзамическим соусом',
               phila: 'Тостада с сыром "Филадельфия", лососем и авокадо',
               tomato: 'Тостада с томатами',
@@ -359,14 +368,15 @@ i18n
           },
           crepes: {
             name: {
-              chicken: 'Бретонский блинчик с курицей',
-              bacon: 'Бретонский блинчик с беконом',
-              salmon: 'Бретонский блинчик с лососем',
+              bacon: 'Бретонский блинчик с беконом, сыром и яйцом',
+              salmon: 'Бретонский блинчик с лососем, авокадо и сыром "Филадельфия"',
+              champignon: 'Бретонский блинчик с шампиньонами и курицей',
             }
           },
           pancakes: {
             name: {
               strawberry: 'Классические панкейки с клубничным кремом, бананом и фруктами',
+              hazelnut: 'Классические панкейки с домашним черничным джемом, бананом, ягодами и ореховой пастой',
               banana: 'Шоколадные панкейки с бананом, мороженым и шоколадным соусом',
               poppy: 'Блинчик с маком, вишней и творогом',
               cinnamon: 'Блинчик с яблоками, карамелью, корицей и орехами',
@@ -514,7 +524,7 @@ i18n
             cocktails: 'Cócteles',
             nonAlcoholic: 'Bebidas sin alcohol',
             drinks: 'Bebidas alcohol',
-            crepes: 'Crepes salados',
+            crepes: 'Crepes salados sin gluten',
           },
           lightBreakfast: {
             name: {
@@ -528,6 +538,7 @@ i18n
               granola: 'Granola con yogur griego, plátano, frutas del bosque, almendra y mermelada',
               berry: 'Smoothie bowl con granola, fresa y mango',
               passion: 'Smoothie bowl de maracuya y mango con kiwi, plátano, granola y frutos secos',
+              acai: 'Açaí bowl con semillas de chía, granola, mango, kiwi, frutos rojos y mantequilla de avellanas casera',
             }
           },
           nutritious: {
@@ -541,9 +552,11 @@ i18n
               bowl: 'Bowl con quinoa, salmón, mango, pepino y aguacate',
               roll: 'Rollo de gambas',
               camembert: 'Camamber frito con salsa de frutos rojos con patatas y salsa de queso',
-              pastrami: 'Sandwich con pastrami, queso chedar, patatas y salsa de autor',
+              pastrami: 'Sandwich con pastrami, queso cheddar, patatas y salsa de autor',
               club: 'Clab Sandwich con pollo, bacon, queso, tomates, verduras y salsa de mostaza(se sirve con patatas)',
               sandwich: 'Sandwich con salmon, aguacate, tortilla, tomates, verduras y queso Philadelphia',
+              chicken_sand: 'Sandwich de pollo con tomate, queso cheddar, lechuga y mayonesa',
+              fried: 'Arroz frito con pollo en salsa agridulce, huevos revueltos y verduras',
               kiev: 'El pollo Kyiv con puré de patata',
             }
           },
@@ -582,6 +595,7 @@ i18n
           tostadas: {
             name: {
               poached: 'Tostada con huevos escalfados, guacamole, salmón y salsa bearnesa',
+              toast: 'Tostada con huevo escalfado, salsa de mostaza, espinacas, bacon y salsa bearnesa',
               brie: 'Tostada con queso brie, jamón, tomates cherry, tomates secos y salsa balsámica',
               phila: 'Tostada con queso Philadelphia, salmón y aguacate',
               tomato: 'Tostada con tomates',
@@ -592,14 +606,15 @@ i18n
           },
           crepes: {
             name: {
-              chicken: 'Crepe bretón con pollo',
-              bacon: 'Crepe bretón con bacon',
-              salmon: 'Crepe bretón con salmón',
+              bacon: 'Crepe bretona con bacon, queso y huevo',
+              salmon: 'Crepe bretona con salmón, aguacate y queso Philadelphia',
+              champignon: 'Crepe bretona con champiñones y pollo',
             }
           },
           pancakes: {
             name: {
               strawberry: 'Tortitas clásicas con crema de fresa, plátano y frutas del bosque',
+              hazelnut: 'Tortitas clásicas con mermelada casera de arándano, plátano, frutos rojos y crema de avellanas',
               banana: 'Tortitas de chocolate con helado, plátano y salsa de chocolate',
               poppy: 'Crepe con amapola, cereza y requesón',
               cinnamon: 'Crepe con manzanas, caramelo, canela y nueces',
@@ -747,7 +762,7 @@ i18n
             cocktails: 'Коктейлі',
             nonAlcoholic: 'Безалкогольні напої',
             drinks: 'Алкогольні напої',
-            crepes: 'Солені млинці',
+            crepes: 'Солені млинці без глютену',
 
           },
           lightBreakfast: {
@@ -762,6 +777,7 @@ i18n
               granola: 'Гранола з грецьким йогуртом, лісовими ягодами, бананом, горіхами та джемом',
               berry: 'Смузі-боул з міксу ягід, полуницею, манго, гранолою і горіхами',
               passion: 'Смузі-боул з маракуї, манго, ківі, бананом, гранолою і горіхами',
+              acai: 'Acai-боул з насіннням чіа, гранолою, манго, ківі, ягодами та домашньою горіховою пастою',
             }
             
           },
@@ -779,6 +795,8 @@ i18n
               pastrami: 'Сендвіч з бастурмою, сиром "Чеддер" і авторським соусом, подається з картоплею',
               club: 'Клаб-сендвіч з куркою, беконом, сиром, томатами, салатом і гірчичним соусом, подається з картоплею',
               sandwich: 'Сендвіч з лососем, авокадо, омлетом, томатами, салатом і сиром "Філадельфія"',
+              chicken_sand: 'Сендвіч з куркою, томатом, сиром "Чеддер", листям салату та майонезом',
+              fried: 'Смажений рис з куркою у кисло-солодкому соусі з яєчнею та овочами',
               kiev: 'Котлета по-київськи з пюре',
             }
           },
@@ -817,6 +835,7 @@ i18n
           tostadas: {
             name: {
               poached: 'Тостада з яйцями пашот, гуакамоле, лососем і соусом "Беарнез"',
+              toast: 'Тостада з яйцем пашот, гірчичним соусом, шпинатом, беконом і соусом "Беарнез"',
               brie: 'Тостада з сиром брі, хамоном, помідорами чері, в\'яленими помідорами та бальзамічним соусом',
               phila: 'Тостада з сиром "Філадельфія", лососем та авокадо',
               tomato: 'Тостада з томатами',
@@ -827,14 +846,15 @@ i18n
           },
           crepes: {
             name: {
-              chicken: 'Бретонський млинець з куркою',
-              bacon: 'Бретонський млинець з беконом',
-              salmon: 'Бретонський млинець з лососем',
+              bacon: 'Бретонський млинець з беконом, сиром та яйцем',
+              salmon: 'Бретонський млинець з лососем, авокадо та сиром Philadelphia',
+              champignon: 'Бретонський млинець з шампіньйонами та куркою',
             }
           },
           pancakes: {
             name: {
               strawberry: 'Класичні панкейки з полуничним кремом, бананом і фруктами',
+              hazelnut: 'Класичні панкейки з домашнім чорничним джемом, бананом, ягодами та горіховою пастою',
               banana: 'Шоколадні панкейки з бананом, морозивом і шоколадним соусом ',
               poppy: 'Млинець з маком, вишнею і сиром',
               cinnamon: 'Млинець з яблуками, карамеллю, корицею і горіхами',

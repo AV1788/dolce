@@ -1,5 +1,6 @@
 [
   { "id": "poached", "name": "Tostada with poached eggs, guacamole, salmon, béarnaise sauce", "price": "8,50" },
+  { "id": "toast", "name": "Tostada with poached egg, mustard sauce, spinach, bacon and bearnaise sauce", "price": "8,00" },
   { "id": "brie", "name": "Tostada with brie cheese, ham, cherry tomatoes, sun-dried tomatoes and balsamic sauce", "price": "7,00" },
   { "id": "phila", "name": "Tostada with Philadelphia cheese, salmon and avocado", "price": "7,50" },
   { "id": "tomato", "name": "Tostada with tomatoes", "price": "3,00" },

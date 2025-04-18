@@ -11,5 +11,7 @@
   { "id": "pastrami", "name": "Sandwich with pastrami, cheddar cheese and signature sauce with potatoes", "price": "7,50" },
   { "id": "club", "name": "Club sandwich with chicken, bacon, cheese, tomatoes, lettuce and mustard sauce, served with potatoes", "price": "8,20" },
   { "id": "sandwich", "name": "Sandwich with salmon, avocado, omelette, tomatoes, lettuce and Philadelphia cheese", "price": "8,00" },
+  { "id": "chicken_sand", "name": "Chicken sandwich with tomato, cheddar cheese, lettuce and mayonnaise", "price": "8,00" },
+  { "id": "fried", "name": "Fried rice with chicken in sweet and sour sauce, scrambled eggs and vegetables", "price": "8,50" },
   { "id": "kiev", "name": "Kiev cutlet with mashed potatoes", "price": "8,50" }
 ]

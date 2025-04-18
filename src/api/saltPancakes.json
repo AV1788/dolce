@@ -1,6 +1,6 @@
 [
-  { "id": "chicken", "name": "Breton crepe with chicken", "price": "7,50" },
-  { "id": "bacon", "name": "Breton crepe with bacon", "price": "7,50" },
-  { "id": "salmon", "name": "Breton crepe with salmon", "price": "8,00" }
+  { "id": "bacon", "name": "Breton crepe with bacon, cheese and egg", "price": "7,50" },
+  { "id": "salmon", "name": "Breton crepe with salmon, avocado and cheese Philadelphia", "price": "8,50" },
+  { "id": "champignon", "name": "Breton crepe with champignons and chicken", "price": "8,20" }
   
 ]

@@ -8,5 +8,6 @@
   { "id": "chia", "name": "Chia pudding with granola, Greek yogurt, wild berries and jam", "price": "6,00" },
   { "id": "granola", "name": "Granola with Greek yogurt, wild berries, banana, nuts and jam", "price": "7,20" },
   { "id": "berry", "name": "Berry mix smoothie bowl with strawberries and mango, granola and nuts", "price": "7,50" },
-  { "id": "passion", "name": "Passion fruit and mango smoothie bowl with kiwi, banana, granola and nuts", "price": "7,50" }
+  { "id": "passion", "name": "Passion fruit and mango smoothie bowl with kiwi, banana, granola and nuts", "price": "7,50" },
+  { "id": "acai", "name": "Acai bowl with chia seeds, granola, mango, kiwi, berries and homemade hazelnut butter", "price": "7,70" }
 ]

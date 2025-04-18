@@ -1,5 +1,6 @@
 [
   { "id": "strawberry", "name": "Classic pancakes with strawberry cream, banana and fruit", "price": "7,30" },
+  { "id": "hazelnut", "name": "Classic pancakes with homemade blueberry jam, banana, berries and hazelnut butter", "price": "7,30" },
   { "id": "banana", "name": "Chocolate pancakes with banana, ice cream and chocolate sauce", "price": "7,30" },
   { "id": "poppy", "name": "Crepe with poppy seeds, cherries and cottage cheese", "price": "8,00" },
   { "id": "cinnamon", "name": "Crepe with apples, caramel, cinnamon and nuts", "price": "7,30" },
