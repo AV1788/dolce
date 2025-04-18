@@ -1,12 +1,12 @@
 [
-  { "id": "iceLatte", "name": "Iced Latte", "price": "2,20" },
+  { "id": "iceLatte", "name": "Iced Latte", "price": "2,50" },
   { "id": "matchaRaspberry", "name": "Iced Matcha-Raspberry Latte", "price": "4,50" },
-  { "id": "frappeStrawberry", "name": "Strawberry Frappe", "price": "3,70" },
-  { "id": "frappeCaramel", "name": "Caramel Frappe", "price": "3,70" },
+  { "id": "frappeStrawberry", "name": "Strawberry Frappe", "price": "4,00" },
+  { "id": "frappeCaramel", "name": "Caramel Frappe", "price": "4,00" },
   { "id": "affogato", "name": "Affogato (Espresso, Ice Cream, and Nuts)", "price": "3,60" },
-  { "id": "matchaIce", "name": "Iced Matcha Latte", "price": "3,80" },
-  { "id": "matchaOrange", "name": "Matcha Orange", "price": "3,90" },
+  { "id": "matchaIce", "name": "Iced Matcha Latte", "price": "4,20" },
+  { "id": "matchaOrange", "name": "Matcha Orange", "price": "4,80" },
   { "id": "espressoTonic", "name": "Espresso Tonic", "price": "3,50" },
-  { "id": "bumble", "name": "Bumble (Orange Juice, Espresso)", "price": "3,60" }
+  { "id": "bumble", "name": "Bumble (Orange Juice, Espresso)", "price": "4,60" }
   
 ]
