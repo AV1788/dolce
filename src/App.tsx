@@ -21,6 +21,8 @@ import lemonadesFromServer from './api/lemonades.json';
 import cocktailsFromServer from './api/cocktails.json';
 import nonAlcoholicFromServer from './api/non-alcohol.json';
 import drinksFromServer from './api/drinks.json';
+import juicesFromServer from './api/juices.json';
+import smoothiesFromServer from './api/smoothies.json';
 
 export const App = () => {
   const { t, i18n } = useTranslation();
@@ -218,6 +220,16 @@ export const App = () => {
                    <div className="accordion-body">
                    <ul className="accordion-body__list">
                       <li className="accordion-body__item">
+                        <a href="#juices" className="accordion-body__link" onClick={() => toggleMenu(false)}>
+                        {t('header.fresh_juices')}
+                        </a>
+                      </li>
+                      <li className="accordion-body__item">
+                        <a href="#smoothies" className="accordion-body__link" onClick={() => toggleMenu(false)}>
+                        {t('header.smoothies')}
+                        </a>
+                      </li>
+                      <li className="accordion-body__item">
                         <a href="#lemonades" className="accordion-body__link" onClick={() => toggleMenu(false)}>
                         {t('header.lemonades')}
                         </a>
@@ -352,6 +364,54 @@ export const App = () => {
             </div>
             <div className="container">
               <img src="hot_tea.jpg" alt="" className="foto"/>
+            </div>
+          </div>
+
+          <div className="juices" id="juices">
+            <div className="app__type-off drinks__info">
+              <div className="container">
+                <h1 className="title drinks__title">
+                  {t('header.fresh_juices')}
+                </h1>
+
+                <ul className="drinks__list">
+                  {juicesFromServer.map(juice => (
+                    <li className="product">
+                      <div className="product__main">
+                        <span className="product__name">{t(`juices.name.${juice.id}`)}</span>
+                        <span className="product__separator"></span>
+                        <span className="product__price">{juice.price}€</span>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+
+                <img src="lemonade_icon.png" alt="" className="drinks__icon drinks__icon--lemonade"/>
+              </div>
+            </div>
+          </div>
+
+          <div className="smoothies" id="smoothies">
+            <div className="app__type-off drinks__info">
+              <div className="container">
+                <h1 className="title drinks__title">
+                  {t('header.smoothies')}
+                </h1>
+
+                <ul className="drinks__list">
+                  {smoothiesFromServer.map(smoothie => (
+                    <li className="product">
+                      <div className="product__main">
+                        <span className="product__name">{t(`smoothies.name.${smoothie.id}`)}</span>
+                        <span className="product__separator"></span>
+                        <span className="product__price">{smoothie.price}€</span>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+
+                <img src="lemonade_icon.png" alt="" className="drinks__icon drinks__icon--lemonade"/>
+              </div>
             </div>
           </div>
 

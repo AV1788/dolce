@@ -1,5 +1,4 @@
 [
-  { "id": "orangeJuice", "name": "Orange Fresh Juice", "price": "4,50" },
   { "id": "cola", "name": "Coca-Cola", "price": "1,90" },
   { "id": "fanta", "name": "Fanta", "price": "1,90" },
   { "id": "sprite", "name": "Sprite", "price": "1,90" },

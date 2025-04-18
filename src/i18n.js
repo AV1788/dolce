@@ -45,6 +45,8 @@ i18n
             cocktails: 'Cocktails',
             nonAlcoholic: 'Non-Alcoholic Drinks',
             drinks: 'Alcoholic Drinks',
+            fresh_juices: 'Fresh juices',
+            smoothies: 'Smoothies',
             crepes: 'Savory crepes gluten-free',
           },
           lightBreakfast: {
@@ -236,7 +238,6 @@ i18n
           },
           nonAlcoholic: {
             name: {
-              orangeJuice: 'Orange Fresh Juice',
               cola: 'Coca-Cola',
               fanta: 'Fanta',
               sprite: 'Sprite',
@@ -254,7 +255,24 @@ i18n
               nonBeer: 'Non-Alcoholic Beer',
             }
           },
-          
+          juices: {
+            name: {
+              energy: 'Yellow energy (apple, ginger, lime)',
+              vitamin: 'Vitamin cocktail (beetroot, apple, carrot, celery)',
+              tropical: 'Tropical mix (orange, carrot, mango)',
+              taste: 'Taste of summer (kiwi, apple, pear)',
+              green: 'Green mix (pineapple, spinach, mango)',
+              orange: 'Orange juice'
+            }
+          },
+          smoothies: {
+            name: {
+              sports: 'Sports Smoothie (oats, peanut butter, bananas and plant-based milk)',
+              strawberry: 'Strawberry (banana, strawberry, coco milk, agave)',
+              raspberry: 'Raspberry (raspberry, peach, orange  juice)',
+              nutritious: 'Nutritious (mango, avocado, spinach, oat milk and agave)'
+            }
+          }
           
         }
       },
@@ -286,6 +304,8 @@ i18n
             cocktails: 'Коктейли',
             nonAlcoholic: 'Безалкогольные напитки',
             drinks: 'Алкогольные напитки',
+            fresh_juices: 'Свежевыжатые соки',
+            smoothies: 'Смузи',
             crepes: 'Соленые блинчики без глютена',
           },
           lightBreakfast: {
@@ -476,7 +496,6 @@ i18n
           },
           nonAlcoholic: {
             name: {
-              orangeJuice: 'Апельсиновый фреш',
               cola: 'Кока-Кола',
               fanta: 'Фанта',
               sprite: 'Спрайт',
@@ -494,6 +513,24 @@ i18n
               nonBeer: 'Безалкогольное пиво',
             }
           },
+          juices: {
+            name: {
+              energy: 'Жёлтая энергия (яблоко, имбирь, лайм)',
+              vitamin: 'Витаминный коктейль (свёкла, яблоко, морковь, сельдерей)',
+              tropical: 'Тропический микс (апельсин, морковь, манго)',
+              taste: 'Вкус лета (киви, яблоко, груша)',
+              green: 'Зелёный микс (ананас, шпинат, манго)',
+              orange: 'Апельсиновый сок'
+            }
+          },
+          smoothies: {
+            name: {
+              sports: 'Спортивный смузи (овсянка, арахисовая паста, бананы и растительное молоко)',
+              strawberry: 'Клубничный (банан, клубника, кокосовое молоко, сироп агавы)',
+              raspberry: 'Малиновый (малина, персик, апельсиновый сок)',
+              nutritious: 'Питательный (манго, авокадо, шпинат, овсяное молоко и сироп агавы)'
+            }
+          }
         }
       },
       es: {
@@ -524,6 +561,8 @@ i18n
             cocktails: 'Cócteles',
             nonAlcoholic: 'Bebidas sin alcohol',
             drinks: 'Bebidas alcohol',
+            fresh_juices: 'Zumos frescos',
+            smoothies: 'Smoothies',
             crepes: 'Crepes salados sin gluten',
           },
           lightBreakfast: {
@@ -714,7 +753,6 @@ i18n
           },
           nonAlcoholic: {
             name: {
-              orangeJuice: 'Zumo de Naranja Natural',
               cola: 'Coca-Cola',
               fanta: 'Fanta',
               sprite: 'Sprite',
@@ -732,6 +770,24 @@ i18n
               nonBeer: 'Cerveza Sin Alcohol',
             }
           },
+          juices: {
+            name: {
+              energy: 'Energía amarilla (manzana, jengibre, lima)',
+              vitamin: 'Cóctel vitamínico (remolacha, manzana, zanahoria, apio)',
+              tropical: 'Tropical (naranja, zanahoria, mango)',
+              taste: 'Sabor de verano (kiwi, manzana, pera)',
+              green: 'Digestivo (piña, espinacas, mango)',
+              orange: 'Zumo de naranja'
+            }
+          },
+          smoothies: {
+            name: {
+              sports: 'Deportivo (avena, mantequilla de cacahuete, plátanos y leche vegetal)',
+              strawberry: 'Fresa (plátano, fresa, leche de coco, agave)',
+              raspberry: 'Frambuesa (frambuesa, melocotón, zumo de naranja)',
+              nutritious: 'Nutritivo (mango, aguacate, espinacas, leche de avena y agave)'
+            }
+          }
         }
       },
       uk: {
@@ -762,6 +818,8 @@ i18n
             cocktails: 'Коктейлі',
             nonAlcoholic: 'Безалкогольні напої',
             drinks: 'Алкогольні напої',
+            fresh_juices: 'Свіжовижаті соки',
+            smoothies: 'Смузі',
             crepes: 'Солені млинці без глютену',
 
           },
@@ -954,7 +1012,6 @@ i18n
           },
           nonAlcoholic: {
             name: {
-              orangeJuice: 'Апельсиновий фреш',
               cola: 'Кока-Кола',
               fanta: 'Фанта',
               sprite: 'Спрайт',
@@ -972,6 +1029,24 @@ i18n
               nonBeer: 'Безалкогольне пиво',
             }
           },
+          juices: {
+            name: {
+              energy: 'Жовта енергія (яблуко, імбир, лайм)',
+              vitamin: 'Вітамінний коктейль (буряк, яблуко, морква, селера)',
+              tropical: 'Тропічний мікс (апельсин, морква, манго)',
+              taste: 'Смак літа (ківі, яблуко, груша)',
+              green: 'Зелений мікс (ананас, шпинат, манго)',
+              orange: 'Апельсиновий сік'
+            }
+          },
+          smoothies: {
+            name: {
+              sports: 'Спортивне смузі (вівсянка, арахісова паста, банани та рослинне молоко)',
+              strawberry: 'Полуничне (банан, полуниця, кокосове молоко, агавовий сироп)',
+              raspberry: 'Малинове (малина, персик, апельсиновий сік)',
+              nutritious: 'Поживне (манго, авокадо, шпинат, вівсяне молоко та агавовий сироп)'
+            }
+          }
         }
       },
     }

@@ -1,0 +1,7 @@
+[
+  { "id": "sports", "name": "Sports Smoothie (oats, peanut butter, bananas and plant-based milk)", "price": "5,00" },
+  { "id": "strawberry", "name": "Strawberry (banana, strawberry, coco milk, agave)", "price": "5,00" },
+  { "id": "raspberry", "name": "Raspberry (raspberry, peach, orange  juice)", "price": "5,00" },
+  { "id": "nutritious", "name": "Nutritious (mango, avocado, spinach, oat milk and agave)", "price": "5,00" }
+  
+]

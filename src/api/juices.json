@@ -1,0 +1,8 @@
+[
+  { "id": "energy", "name": "Yellow energy (apple, ginger, lime)", "price": "5,00" },
+  { "id": "vitamin", "name": "Vitamin cocktail (beetroot, apple, carrot, celery)", "price": "5,00" },
+  { "id": "tropical", "name": "Tropical mix (orange, carrot, mango)", "price": "5,00" },
+  { "id": "taste", "name": "Taste of summer (kiwi, apple, pear)", "price": "5,00" },
+  { "id": "green", "name": "Green mix (pineapple, spinach, mango)", "price": "5,00" },
+  { "id": "orange", "name": "Orange juice", "price": "4,50" }
+]
