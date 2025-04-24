@@ -1,7 +1,7 @@
 [
-  { "id": "caesar", "name": "New York croissant \"Caesar\"", "price": "7,50" },
-  { "id": "caprese", "name": "Croissant \"Caprese\" with tomatoes, mozzarella cheese and pesto sauce", "price": "6,50" },
-  { "id": "tuna", "name": "Croissant with tuna, Philadelphia cheese, cucumber, lettuce and egg", "price": "7,00" },
-  { "id": "bakedGoat", "name": "Croissant with baked goat cheese, cheddar cheese, berry sauce, berries and honey", "price": "8,00" },
-  { "id": "turkey", "name": "Croissant with turkey, fresh cheese, Caesar sauce, tomatoes and lettuce", "price": "7,50" }
+  { "id": "caesar", "name": "New York croissant \"Caesar\"", "price": "7,50", "allergenes": "Gluten, eggs, dairy products" },
+  { "id": "caprese", "name": "Croissant \"Caprese\" with tomatoes, mozzarella cheese and pesto sauce", "price": "6,50", "allergenes": "Gluten, dairy products, nuts" },
+  { "id": "tuna", "name": "Croissant with tuna, Philadelphia cheese, cucumber, lettuce and egg", "price": "7,00", "allergenes": "Gluten, eggs, dairy products, fish" },
+  { "id": "bakedGoat", "name": "Croissant with baked goat cheese, cheddar cheese, berry sauce, berries and honey", "price": "8,00", "allergenes": "Dairy products, gluten, berries" },
+  { "id": "turkey", "name": "Croissant with turkey, fresh cheese, Caesar sauce, tomatoes and lettuce", "price": "7,50", "allergenes": "Dairy products, gluten, eggs, meat" }
 ]

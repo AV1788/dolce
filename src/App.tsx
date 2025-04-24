@@ -24,6 +24,9 @@ import drinksFromServer from './api/drinks.json';
 import juicesFromServer from './api/juices.json';
 import smoothiesFromServer from './api/smoothies.json';
 
+const normalizeAllergenKey = (input: string) =>
+  input.trim().toLowerCase().replace(/\s+/g, "_");
+
 export const App = () => {
   const { t, i18n } = useTranslation();
   const [loading, setLoading] = useState(false);
@@ -536,15 +539,28 @@ export const App = () => {
                   {t('header.burgers')}
                 </h1>
                 <ul className="food__list">
-                  {burgersFromServer.map(burger => (
-                    <li className="product">
-                    <div className="product__main">
-                      <span className="product__name">{t(`burgers.name.${burger.id}`)}</span>
-                      <span className="product__separator"></span>
-                      <span className="product__price">{burger.price}€</span>
-                    </div>
-                  </li>
-                  ))}
+                {burgersFromServer.map(burger => {
+                  const translatedAllergenes = burger.allergenes
+                    .split(",")
+                    .map(allergen => {
+                      const key = allergen.trim().toLowerCase().replace(/\s+/g, "_"); // робимо "dairy_products"
+                      const i18nKey = `allergenes.${key}`;
+                      return i18n.exists(i18nKey) ? t(i18nKey) : allergen.trim(); // переклад або як є
+                    })
+                    .join(", "); // формуємо рядок
+
+                  return (
+                    <li className="product" key={burger.id}>
+                      <div className="product__main product__main--allergen">
+                        <span className="product__name">{t(`burgers.name.${burger.id}`)}</span>
+                        <span className="product__separator"></span>
+                        <span className="product__price">{burger.price}€</span>
+                        <span className="product__allergenes product__allergenes--in-container">{`${t('header.allergenes')}: ${translatedAllergenes}`}</span>
+                      </div>
+                      <span className="product__allergenes product__allergenes--out-container">{`${t('header.allergenes')}: ${translatedAllergenes}`}</span>
+                    </li>
+                  );
+                })}
                 </ul>
               </div>
               <img src="burger_icon1.png" alt="" className="food__icon food__icon--burger"/>
@@ -561,15 +577,28 @@ export const App = () => {
                   {t('header.croissants')}
                 </h1>
                 <ul className="food__list">
-                  {croissantsFromServer.map(croissant => (
-                    <li className="product">
-                      <div className="product__main">
+                {croissantsFromServer.map(croissant => {
+                  const translatedAllergenes = croissant.allergenes
+                    .split(",")
+                    .map(allergen => {
+                      const key = allergen.trim().toLowerCase().replace(/\s+/g, "_"); // робимо "dairy_products"
+                      const i18nKey = `allergenes.${key}`;
+                      return i18n.exists(i18nKey) ? t(i18nKey) : allergen.trim(); // переклад або як є
+                    })
+                    .join(", "); // формуємо рядок
+
+                  return (
+                    <li className="product" key={croissant.id}>
+                      <div className="product__main product__main--allergen">
                         <span className="product__name">{t(`croissants.name.${croissant.id}`)}</span>
                         <span className="product__separator"></span>
                         <span className="product__price">{croissant.price}€</span>
+                        <span className="product__allergenes product__allergenes--in-container">{`${t('header.allergenes')}: ${translatedAllergenes}`}</span>
                       </div>
+                      <span className="product__allergenes product__allergenes--out-container">{`${t('header.allergenes')}: ${translatedAllergenes}`}</span>
                     </li>
-                  ))}
+                  );
+                })}
                 </ul>
               </div>
               <img src="croissant_icon.png" alt="" className="food__icon food__icon--croissant"/>
@@ -587,15 +616,28 @@ export const App = () => {
                   {t('header.light')}
                 </h1>
                 <ul className="food__list">
-                  {lightBreakfastFromServer.map(lightBreakfast => (
-                    <li className="product">
-                      <div className="product__main">
+                {lightBreakfastFromServer.map(lightBreakfast => {
+                  const translatedAllergenes = lightBreakfast.allergenes
+                    .split(",")
+                    .map(allergen => {
+                      const key = allergen.trim().toLowerCase().replace(/\s+/g, "_"); // робимо "dairy_products"
+                      const i18nKey = `allergenes.${key}`;
+                      return i18n.exists(i18nKey) ? t(i18nKey) : allergen.trim(); // переклад або як є
+                    })
+                    .join(", "); // формуємо рядок
+
+                  return (
+                    <li className="product" key={lightBreakfast.id}>
+                      <div className="product__main product__main--allergen">
                         <span className="product__name">{t(`lightBreakfast.name.${lightBreakfast.id}`)}</span>
                         <span className="product__separator"></span>
                         <span className="product__price">{lightBreakfast.price}€</span>
+                        <span className="product__allergenes product__allergenes--in-container">{`${t('header.allergenes')}: ${translatedAllergenes}`}</span>
                       </div>
+                      <span className="product__allergenes product__allergenes--out-container">{`${t('header.allergenes')}: ${translatedAllergenes}`}</span>
                     </li>
-                  ))}
+                  );
+                })}
                 </ul>
               </div>
               <img src="light_icon2.png" alt="" className="food__icon food__icon--light"/>
@@ -612,15 +654,28 @@ export const App = () => {
                   {t('header.nutritious')}
                 </h1>
                 <ul className="food__list">
-                  {nutritiousBreakfastFromServer.map(nutritious => (
-                    <li className="product">
-                      <div className="product__main">
+                {nutritiousBreakfastFromServer.map(nutritious => {
+                  const translatedAllergenes = nutritious.allergenes
+                    .split(",")
+                    .map(allergen => {
+                      const key = allergen.trim().toLowerCase().replace(/\s+/g, "_"); // робимо "dairy_products"
+                      const i18nKey = `allergenes.${key}`;
+                      return i18n.exists(i18nKey) ? t(i18nKey) : allergen.trim(); // переклад або як є
+                    })
+                    .join(", "); // формуємо рядок
+
+                  return (
+                    <li className="product" key={nutritious.id}>
+                      <div className="product__main product__main--allergen">
                         <span className="product__name">{t(`nutritious.name.${nutritious.id}`)}</span>
                         <span className="product__separator"></span>
                         <span className="product__price">{nutritious.price}€</span>
+                        <span className="product__allergenes product__allergenes--in-container">{`${t('header.allergenes')}: ${translatedAllergenes}`}</span>
                       </div>
+                      <span className="product__allergenes product__allergenes--out-container">{`${t('header.allergenes')}: ${translatedAllergenes}`}</span>
                     </li>
-                  ))}
+                  );
+                })}
                 </ul>
               </div>
               <img src="fork.png" alt="" className="food__icon food__icon--nutritious"/>
@@ -638,15 +693,28 @@ export const App = () => {
                   {t('header.soups')}
                 </h1>
                 <ul className="food__list">
-                  {soupsFromServer.map(soups => (
-                    <li className="product">
-                      <div className="product__main">
-                        <span className="product__name">{t(`soups.name.${soups.id}`)}</span>
+                {soupsFromServer.map(soup => {
+                  const translatedAllergenes = soup.allergenes
+                    .split(",")
+                    .map(allergen => {
+                      const key = allergen.trim().toLowerCase().replace(/\s+/g, "_"); // робимо "dairy_products"
+                      const i18nKey = `allergenes.${key}`;
+                      return i18n.exists(i18nKey) ? t(i18nKey) : allergen.trim(); // переклад або як є
+                    })
+                    .join(", "); // формуємо рядок
+
+                  return (
+                    <li className="product" key={soup.id}>
+                      <div className="product__main product__main--allergen">
+                        <span className="product__name">{t(`soups.name.${soup.id}`)}</span>
                         <span className="product__separator"></span>
-                        <span className="product__price">{soups.price}€</span>
+                        <span className="product__price">{soup.price}€</span>
+                        <span className="product__allergenes product__allergenes--in-container">{`${t('header.allergenes')}: ${translatedAllergenes}`}</span>
                       </div>
+                      <span className="product__allergenes product__allergenes--out-container">{`${t('header.allergenes')}: ${translatedAllergenes}`}</span>
                     </li>
-                  ))}
+                  );
+                })}
                 </ul>
               </div>
               <img src="soup_icon.png" alt="" className="food__icon food__icon--soup"/>
@@ -664,15 +732,28 @@ export const App = () => {
                   {t('header.salads')}
                 </h1>
                 <ul className="food__list">
-                  {saladsFromServer.map(salads => (
-                    <li className="product">
-                      <div className="product__main">
-                        <span className="product__name">{t(`salads.name.${salads.id}`)}</span>
+                {saladsFromServer.map(salad => {
+                  const translatedAllergenes = salad.allergenes
+                    .split(",")
+                    .map(allergen => {
+                      const key = allergen.trim().toLowerCase().replace(/\s+/g, "_"); // робимо "dairy_products"
+                      const i18nKey = `allergenes.${key}`;
+                      return i18n.exists(i18nKey) ? t(i18nKey) : allergen.trim(); // переклад або як є
+                    })
+                    .join(", "); // формуємо рядок
+
+                  return (
+                    <li className="product" key={salad.id}>
+                      <div className="product__main product__main--allergen">
+                        <span className="product__name">{t(`salads.name.${salad.id}`)}</span>
                         <span className="product__separator"></span>
-                        <span className="product__price">{salads.price}€</span>
+                        <span className="product__price">{salad.price}€</span>
+                        <span className="product__allergenes product__allergenes--in-container">{`${t('header.allergenes')}: ${translatedAllergenes}`}</span>
                       </div>
+                      <span className="product__allergenes product__allergenes--out-container">{`${t('header.allergenes')}: ${translatedAllergenes}`}</span>
                     </li>
-                  ))}
+                  );
+                })}
                 </ul>
               </div>
               <img src="salad_icon.png" alt="" className="food__icon food__icon--salad"/>
@@ -690,15 +771,28 @@ export const App = () => {
                   {t('header.tostadas')}
                 </h1>
                 <ul className="food__list">
-                  {tostadasFromServer.map(tostadas => (
-                    <li className="product">
-                      <div className="product__main">
-                        <span className="product__name">{t(`tostadas.name.${tostadas.id}`)}</span>
+                {tostadasFromServer.map(tostada => {
+                  const translatedAllergenes = tostada.allergenes
+                    .split(",")
+                    .map(allergen => {
+                      const key = allergen.trim().toLowerCase().replace(/\s+/g, "_"); // робимо "dairy_products"
+                      const i18nKey = `allergenes.${key}`;
+                      return i18n.exists(i18nKey) ? t(i18nKey) : allergen.trim(); // переклад або як є
+                    })
+                    .join(", "); // формуємо рядок
+
+                  return (
+                    <li className="product" key={tostada.id}>
+                      <div className="product__main product__main--allergen">
+                        <span className="product__name">{t(`tostadas.name.${tostada.id}`)}</span>
                         <span className="product__separator"></span>
-                        <span className="product__price">{tostadas.price}€</span>
+                        <span className="product__price">{tostada.price}€</span>
+                        <span className="product__allergenes product__allergenes--in-container">{`${t('header.allergenes')}: ${translatedAllergenes}`}</span>
                       </div>
+                      <span className="product__allergenes product__allergenes--out-container">{`${t('header.allergenes')}: ${translatedAllergenes}`}</span>
                     </li>
-                  ))}
+                  );
+                })}
                 </ul>
               </div>
               <img src="tostada_icon.png" alt="" className="food__icon food__icon--tostada"/>
@@ -716,15 +810,28 @@ export const App = () => {
                   {t('header.crepes')}
                 </h1>
                 <ul className="food__list">
-                  {saltPancakesFromServer.map(crepe => (
-                    <li className="product">
-                      <div className="product__main">
+                {saltPancakesFromServer.map(crepe => {
+                  const translatedAllergenes = crepe.allergenes
+                    .split(",")
+                    .map(allergen => {
+                      const key = allergen.trim().toLowerCase().replace(/\s+/g, "_"); // робимо "dairy_products"
+                      const i18nKey = `allergenes.${key}`;
+                      return i18n.exists(i18nKey) ? t(i18nKey) : allergen.trim(); // переклад або як є
+                    })
+                    .join(", "); // формуємо рядок
+
+                  return (
+                    <li className="product" key={crepe.id}>
+                      <div className="product__main product__main--allergen">
                         <span className="product__name">{t(`crepes.name.${crepe.id}`)}</span>
                         <span className="product__separator"></span>
                         <span className="product__price">{crepe.price}€</span>
+                        <span className="product__allergenes product__allergenes--in-container">{`${t('header.allergenes')}: ${translatedAllergenes}`}</span>
                       </div>
+                      <span className="product__allergenes product__allergenes--out-container">{`${t('header.allergenes')}: ${translatedAllergenes}`}</span>
                     </li>
-                  ))}
+                  );
+                })}
                 </ul>
               </div>
               <img src="saltPancake_icon1.png" alt="" className="food__icon food__icon--crepe"/>
@@ -743,15 +850,28 @@ export const App = () => {
                   {t('header.pancakes')}
                 </h1>
                 <ul className="food__list">
-                  {pancakesFromServer.map(pancakes => (
-                    <li className="product">
-                      <div className="product__main">
-                        <span className="product__name">{t(`pancakes.name.${pancakes.id}`)}</span>
+                {pancakesFromServer.map(pancake => {
+                  const translatedAllergenes = pancake.allergenes
+                    .split(",")
+                    .map(allergen => {
+                      const key = allergen.trim().toLowerCase().replace(/\s+/g, "_"); // робимо "dairy_products"
+                      const i18nKey = `allergenes.${key}`;
+                      return i18n.exists(i18nKey) ? t(i18nKey) : allergen.trim(); // переклад або як є
+                    })
+                    .join(", "); // формуємо рядок
+
+                  return (
+                    <li className="product" key={pancake.id}>
+                      <div className="product__main product__main--allergen">
+                        <span className="product__name">{t(`pancakes.name.${pancake.id}`)}</span>
                         <span className="product__separator"></span>
-                        <span className="product__price">{pancakes.price}€</span>
+                        <span className="product__price">{pancake.price}€</span>
+                        <span className="product__allergenes product__allergenes--in-container">{`${t('header.allergenes')}: ${translatedAllergenes}`}</span>
                       </div>
+                      <span className="product__allergenes product__allergenes--out-container">{`${t('header.allergenes')}: ${translatedAllergenes}`}</span>
                     </li>
-                  ))}
+                  );
+                })}
                 </ul>
               </div>
               <img src="pancake_icon.png" alt="" className="food__icon food__icon--pancake"/>
@@ -769,15 +889,28 @@ export const App = () => {
                   {t('header.brunches')}
                 </h1>
                 <ul className="food__list">
-                  {brunchesFromServer.map(brunches => (
-                    <li className="product">
-                      <div className="product__main">
-                        <span className="product__name">{t(`brunches.name.${brunches.id}`)}</span>
+                {brunchesFromServer.map(brunch => {
+                  const translatedAllergenes = brunch.allergenes
+                    .split(",")
+                    .map(allergen => {
+                      const key = allergen.trim().toLowerCase().replace(/\s+/g, "_"); // робимо "dairy_products"
+                      const i18nKey = `allergenes.${key}`;
+                      return i18n.exists(i18nKey) ? t(i18nKey) : allergen.trim(); // переклад або як є
+                    })
+                    .join(", "); // формуємо рядок
+
+                  return (
+                    <li className="product" key={brunch.id}>
+                      <div className="product__main product__main--allergen">
+                        <span className="product__name">{t(`brunches.name.${brunch.id}`)}</span>
                         <span className="product__separator"></span>
-                        <span className="product__price">{brunches.price}€</span>
+                        <span className="product__price">{brunch.price}€</span>
+                        <span className="product__allergenes product__allergenes--in-container">{`${t('header.allergenes')}: ${translatedAllergenes}`}</span>
                       </div>
+                      <span className="product__allergenes product__allergenes--out-container">{`${t('header.allergenes')}: ${translatedAllergenes}`}</span>
                     </li>
-                  ))}
+                  );
+                })}
                 </ul>
               </div>
               <img src="brunch_icon.png" alt="" className="food__icon food__icon--brunch"/>

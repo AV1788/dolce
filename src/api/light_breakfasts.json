@@ -1,13 +1,13 @@
 [
-  { "id": "sunDried", "name": "Cottage cheese pancakes with sun-dried tomatoes and pesto sauce", "price": "7,10" },
-  { "id": "cherries", "name": "Cottage cheese pancakes with cherries and Greek yogurt", "price": "7,00" },
-  { "id": "caramel", "name": "Cottage cheese pancakes with caramel, pear and coconut", "price": "7,00" },
-  { "id": "wildBerries", "name": "Cottage cheese donuts with wild berries, nuts and vanilla cream", "price": "7,00" },
-  { "id": "mango", "name": "Cottage cheese donuts with mango, nuts and vanilla cream", "price": "7,00" },
-  { "id": "oatmeal", "name": "Oatmeal with coconut milk, banana, blueberries and cinnamon", "price": "6,00" },
-  { "id": "chia", "name": "Chia pudding with granola, Greek yogurt, wild berries and jam", "price": "6,00" },
-  { "id": "granola", "name": "Granola with Greek yogurt, wild berries, banana, nuts and jam", "price": "7,20" },
-  { "id": "berry", "name": "Berry mix smoothie bowl with strawberries and mango, granola and nuts", "price": "7,50" },
-  { "id": "passion", "name": "Passion fruit and mango smoothie bowl with kiwi, banana, granola and nuts", "price": "7,50" },
-  { "id": "acai", "name": "Acai bowl with chia seeds, granola, mango, kiwi, berries and homemade hazelnut butter", "price": "7,70" }
+  { "id": "sunDried", "name": "Cottage cheese pancakes with sun-dried tomatoes and pesto sauce", "price": "7,10", "allergenes": "Dairy products, eggs, gluten, nuts" },
+  { "id": "cherries", "name": "Cottage cheese pancakes with cherries and Greek yogurt", "price": "7,00", "allergenes": "Dairy products, eggs, gluten"},
+  { "id": "caramel", "name": "Cottage cheese pancakes with caramel, pear and coconut", "price": "7,00", "allergenes": "Dairy products, eggs, gluten, coconut"},
+  { "id": "wildBerries", "name": "Cottage cheese donuts with wild berries, nuts and vanilla cream", "price": "7,00", "allergenes": "Dairy products, eggs, gluten, nuts, berries"},
+  { "id": "mango", "name": "Cottage cheese donuts with mango, nuts and vanilla cream", "price": "7,00", "allergenes": "Dairy products, eggs, gluten, nuts" },
+  { "id": "oatmeal", "name": "Oatmeal with coconut milk, banana, blueberries and cinnamon", "price": "6,00", "allergenes": "Coconut, gluten, fruits/berries" },
+  { "id": "chia", "name": "Chia pudding with granola, Greek yogurt, wild berries and jam", "price": "6,00", "allergenes": "Dairy products, nuts, gluten, berries" },
+  { "id": "granola", "name": "Granola with Greek yogurt, wild berries, banana, nuts and jam", "price": "7,20", "allergenes": "Dairy products, nuts, gluten, berries"},
+  { "id": "berry", "name": "Berry mix smoothie bowl with strawberries and mango, granola and nuts", "price": "7,50", "allergenes": "Nuts, gluten, berries" },
+  { "id": "passion", "name": "Passion fruit and mango smoothie bowl with kiwi, banana, granola and nuts", "price": "7,50", "allergenes": "Nuts, gluten, fruits" },
+  { "id": "acai", "name": "Acai bowl with chia seeds, granola, mango, kiwi, berries and homemade hazelnut butter", "price": "7,70", "allergenes": "Gluten, berries" }
 ]

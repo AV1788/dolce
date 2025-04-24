@@ -48,6 +48,25 @@ i18n
             fresh_juices: 'Fresh juices',
             smoothies: 'Smoothies',
             crepes: 'Savory crepes gluten-free',
+            allergenes: 'Allergens'
+          },
+          allergenes: {
+            dairy_products: 'dairy products',
+            gluten: 'gluten',
+            eggs: 'eggs',
+            nuts: 'nuts',
+            coconut: 'coconut',
+            mushrooms: 'mushrooms',
+            fruits: 'fruits',
+            berries: 'berries',
+            meat: 'meat',
+            legumes: 'legumes',
+            fish: 'fish',
+            seafood: 'seafood',
+            onion: 'onion',
+            mustard: 'mustard',
+            chocolate: 'chocolate',
+            citrus_fruits: 'citrus fruits'
           },
           lightBreakfast: {
             name: {
@@ -307,6 +326,26 @@ i18n
             fresh_juices: 'Свежевыжатые соки',
             smoothies: 'Смузи',
             crepes: 'Соленые блинчики без глютена',
+            allergenes: 'Аллергены'
+          },
+          allergenes: {
+            dairy_products: 'молочные продукты',
+            gluten: 'глютен',
+            eggs: 'яйца',
+            nuts: 'орехи',
+            coconut: 'кокос',
+            mushrooms: 'грибы',
+            fruits: 'фрукты',
+            berries: 'ягоды',
+            meat: 'м\'ясо',
+            legumes: 'бобовые',
+            fish: 'рыба',
+            seafood: 'морепродукты',
+            onion: 'лук',
+            mustard: 'горчица',
+            chocolate: 'шоколад',
+            citrus_fruits: 'цитрусовые'
+            
           },
           lightBreakfast: {
             name: {
@@ -564,6 +603,26 @@ i18n
             fresh_juices: 'Zumos frescos',
             smoothies: 'Smoothies',
             crepes: 'Crepes salados sin gluten',
+            allergenes: 'Alérgenos'
+          },
+          allergenes: {
+            dairy_products: 'productos lácteos',
+            gluten: 'gluten',
+            eggs: 'huevos',
+            nuts: 'frutos secos',
+            coconut: 'coco',
+            mushrooms: 'hongos',
+            fruits: 'frutas',
+            berries: 'bayas',
+            meat: 'carne',
+            legumes: 'legumbres',
+            fish: 'pescado',
+            seafood: 'mariscos',
+            onion: 'cebolla',
+            mustard: 'mostaza',
+            chocolate: 'chocolate',
+            citrus_fruits: 'cítricos'
+            
           },
           lightBreakfast: {
             name: {
@@ -821,7 +880,27 @@ i18n
             fresh_juices: 'Свіжовижаті соки',
             smoothies: 'Смузі',
             crepes: 'Солені млинці без глютену',
+            allergenes: 'Алергени'
 
+          },
+          allergenes: {
+            dairy_products: 'молочні продукти',
+            gluten: 'глютен',
+            eggs: 'яйця',
+            nuts: 'горіхи',
+            coconut: 'кокос',
+            mushrooms: 'гриби',
+            fruits: 'фрукти',
+            berries: 'ягоди',
+            meat: 'м\'ясо',
+            legumes: 'бобові',
+            fish: 'риба',
+            seafood: 'морепродукти',
+            onion: 'цибуля',
+            mustard: 'гірчиця',
+            chocolate: 'шоколад',
+            citrus_fruits: 'цитрусові'
+            
           },
           lightBreakfast: {
             name: {

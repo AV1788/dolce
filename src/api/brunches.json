@@ -1,5 +1,5 @@
 [
-  { "id": "bacon", "name": "Bacon brunch (New York croissant with bacon, Philadelphia cheese, spinach and egg; for dessert chia pudding with Greek yogurt, granola and fruit, coffee, orange juice or lemonade to choose from)", "price": "13,50" },
-  { "id": "salmon", "name": "Salmon brunch (brioche with guacamole, salmon, poached egg, béarnaise sauce and salad; for dessert mini pancakes with fruit and Nutella; coffee, orange juice or lemonade to choose from)", "price": "14,50" },
-  { "id": "greek", "name": "Greek brunch (omelette with tomatoes, peppers, feta cheese and olives; for dessert donuts with vanilla cream and fruit; coffee and orange juice or lemonade to choose from)", "price": "13,00" }
+  { "id": "bacon", "name": "Bacon brunch (New York croissant with bacon, Philadelphia cheese, spinach and egg; for dessert chia pudding with Greek yogurt, granola and fruit, coffee, orange juice or lemonade to choose from)", "price": "13,50", "allergenes": "Gluten, eggs, dairy products, nuts, berries" },
+  { "id": "salmon", "name": "Salmon brunch (brioche with guacamole, salmon, poached egg, béarnaise sauce and salad; for dessert mini pancakes with fruit and Nutella; coffee, orange juice or lemonade to choose from)", "price": "14,50", "allergenes": "Gluten, eggs, dairy products, nuts, fish" },
+  { "id": "greek", "name": "Greek brunch (omelette with tomatoes, peppers, feta cheese and olives; for dessert donuts with vanilla cream and fruit; coffee and orange juice or lemonade to choose from)", "price": "13,00", "allergenes": "Gluten, eggs, dairy products, nuts, fruits" }
 ]
