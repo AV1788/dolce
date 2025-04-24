@@ -1,6 +1,6 @@
 [
   { "id": "poached", "name": "Tostada with poached eggs, guacamole, salmon, béarnaise sauce", "price": "8,50", "allergenes": "Gluten, eggs, dairy products, fish" },
-  { "id": "toast", "name": "Tostada with poached egg, mustard sauce, spinach, bacon and bearnaise sauce", "price": "8,00", "allergenes": "" },
+  { "id": "toast", "name": "Tostada with poached egg, mustard sauce, spinach, bacon and bearnaise sauce", "price": "8,00", "allergenes": "Eggs, meat, dairy products, mustard" },
   { "id": "brie", "name": "Tostada with brie cheese, ham, cherry tomatoes, sun-dried tomatoes and balsamic sauce", "price": "7,00", "allergenes": "Gluten, meat, dairy products" },
   { "id": "phila", "name": "Tostada with Philadelphia cheese, salmon and avocado", "price": "7,50", "allergenes": "Gluten, fish, dairy products" },
   { "id": "tomato", "name": "Tostada with tomatoes", "price": "3,00", "allergenes": "Gluten" },
